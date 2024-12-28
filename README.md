@@ -18,7 +18,10 @@ The device is built on **Raspberry Pi 4** hardware and provides offline function
 - **Hybrid Deployment:** Accessible both offline (device) and online (Hugging Face Spaces).
 
 ---
+## **Device Prototype**
+![Device Prototype](https://imgur.com/roAorFg.png)
 
+---
 
 ## **Datasets**
 
@@ -81,7 +84,8 @@ This section provides a detailed overview of the datasets used and created for t
 - **Publicly available for download:** [Synthetic Augmentation for Fewer Data on Kaggle](https://www.kaggle.com/datasets/devdope/synthetic-skin-disease-datasetonly-synthetic).
 
 ---
-
+## **Datasets Gallery**
+![Datasets Gallery](https://imgur.com/qRHARP6.png)
 
 ---
 
@@ -171,7 +175,7 @@ The performance of both models was further analyzed using ROC curves and confusi
 - **ROC Curves:** Demonstrated improved trade-offs between sensitivity and specificity in Model 2, particularly for underrepresented classes like Monkeypox and Chickenpox.
 - **Confusion Matrices:** Highlighted reduced misclassification rates in Model 2, especially for diseases with higher clinical significance.
 
-![ROC and Confusion Matrices](https://link_to_image/roc_confusion.png)
+![ROC Curves](https://imgur.com/MN1sZHt.png)
 
 ---
 
@@ -184,7 +188,7 @@ The performance of both models was further analyzed using ROC curves and confusi
 
 ## **Explainability**
 Using LIME, the model highlights the most relevant regions for each prediction, ensuring transparency in medical diagnosis. Below is an example visualization:  
-![LIME Visualization](https://link_to_image/lime.png)
+![LIME Visualization](https://imgur.com/Vd3S9in.png)
 
 ---
 
