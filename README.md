@@ -51,14 +51,14 @@ This section provides a detailed overview of the datasets used and created for t
 - **Enhancements:**
   - Image contrast was increased before segmentation to improve the model's accuracy.
   - SlimSAM performed precise automatic segmentation of lesion areas.
-- **Publicly available for download:** [SlimSAM Segmented Dataset on Kaggle](https://www.kaggle.com/datasets/devdope/skin-disease-lightweight-dataset-slinsam).
+- **Publicly available for download:** [SlimSAM Segmented Dataset on Kaggle](https://www.kaggle.com/datasets/devdope/skin-disease-variations-dataset).
 
 ---
 
 ### **4. Mixed Segmented Dataset**
 - Combines images from both **HSV segmentation** and **SlimSAM segmentation** approaches.
 - Random selection ensures a balanced representation of both methods, providing diversity for model training and evaluation.
-- **Publicly available for download:** [Mixed Segmented Dataset on Kaggle](https://www.kaggle.com/datasets/devdope/skin-disease-lightweight-dataset-combined).
+- **Publicly available for download:** [Mixed Segmented Dataset on Kaggle](https://www.kaggle.com/datasets/devdope/skin-disease-variations-dataset).
 
 ---
 
@@ -69,7 +69,7 @@ This section provides a detailed overview of the datasets used and created for t
   - **LoRAs Training:** 60 epochs and 30,000 steps using OneTrainer on the base dataset.
   - **Image Generation:** Generated using the Fooocus API, guided by a trained discriminator model to ensure correct categorization.
   - **Pre-trained Model:** **JuggernautXL V7** (Stable Diffusion XL) served as the foundation for LoRAs. Weights and configurations are available on [CivitAI](https://civitai.com/user/DevDope).
-- **Publicly available for download:** [Synthetic Augmentation Dataset on Kaggle](https://www.kaggle.com/datasets/devdope/synthetic-skin-disease-dataset).
+- **Publicly available for download:** [Synthetic Augmentation Dataset on Kaggle](https://www.kaggle.com/datasets/devdope/synthetic-skin-disease-datasetreal-and-synthetic).
 
 ---
 
@@ -77,7 +77,7 @@ This section provides a detailed overview of the datasets used and created for t
 - Focuses on balancing the dataset by generating synthetic images exclusively for underrepresented categories:
   - **Chickenpox** and **Measles.**
 - Only original images for other categories were retained to ensure balance.
-- **Publicly available for download:** [Synthetic Augmentation for Fewer Data on Kaggle](https://www.kaggle.com/datasets/devdope/synthetic-skin-disease-dataset-balanced).
+- **Publicly available for download:** [Synthetic Augmentation for Fewer Data on Kaggle](https://www.kaggle.com/datasets/devdope/synthetic-skin-disease-datasetonly-synthetic).
 
 ---
 
@@ -195,9 +195,9 @@ Using LIME, the model highlights the most relevant regions for each prediction, 
 ---
 
 ## **Contributors**
--M.Sc. Erick Garcia
--Ph.D. Jose Sergio Ruiz Castilla
--Ph.D. Farid Garcia Lamont
+- M.Sc. Erick Garcia
+- Ph.D. Jose Sergio Ruiz Castilla
+- Ph.D. Farid Garcia Lamont
 
 
 ---
@@ -208,7 +208,7 @@ Special thanks to **CivitAI** for hosting the LoRAs used in this project and **H
 ---
 
 ## **References**
-For a complete list of references and citations, refer to the [article](https://link_to_published_article).
+For a complete list of references and citations, refer to the [article](https://link_to_published_article).(Coming Soon)
 
 ---
 
