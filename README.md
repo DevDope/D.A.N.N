@@ -1,6 +1,6 @@
 # D.A.N.N. (Dermatologic Analysis with Neural Networks)
 
-![D.A.N.N. Banner](https://link_to_image/banner.png)
+![D.A.N.N. Banner](https://thumbs2.imgbox.com/25/57/vcnPG4No_t.pn)
 
 ## **Overview**
 D.A.N.N. is a lightweight, portable device designed to assist healthcare professionals in resource-limited environments. Using a **Vision Transformer (ViT)** model enhanced with synthetic data generated via **Stable Diffusion GAN**, D.A.N.N. achieves state-of-the-art performance in skin lesion classification, with a validation accuracy of **92.77%**.
